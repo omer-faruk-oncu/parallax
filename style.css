@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: gray;
+    height: 100%;  
+}
+
+.img1{
+    background-image: url(./img/bg.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-attachment: fixed;
+    position: relative;        
+}
+
+#span{
+    font-size: 3rem;
+    letter-spacing: 8px;
+    line-height: 5rem;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 20px; 
+    background-color: rgba(0, 0, 0, 0.723);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    height: 120px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    outline: 8px solid purple;
+    outline-offset: 1rem; 
+}
+
+.container{
+    text-align: center;
+}
+
+.section1{
+    background-color: #F1F1F1;
+    position: relative;
+    height: 350px;
+    font-family: 'Lato', sans-serif;
+}
+
+.section1 h2{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 70px; 
+}
+
+.section1 p{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    right: 50px;
+    text-align: justify;
+    height: 200px;
+}
+.img2{
+    background-image: url(./img/bg2.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-attachment: fixed;
+    position: relative;        
+}
+
+#span1{
+    position: absolute;
+    height: 120px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section2{
+    background-color: #282E34;
+    position: relative;
+    height: 300px;
+}
+
+.section2 h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 65px; 
+    color: #DDDDDD;
+}
+
+.section2 p{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    right: 50px;
+    text-align: center;
+    height: 200px;
+    color: #DDDDDD;
+}
+
+.img3{
+    background-image: url(./img/bg3.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-attachment: fixed;
+    position: relative;        
+}
+
+#span2{
+    font-family: 'Lato', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 8px;
+    line-height: 3rem;
+    width: 750px;
+    height: 70px;
+    border: 1px solid black;
+    padding: 10px; 
+    background-color: rgba(0, 0, 0, 0.723);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    outline: 8px solid purple;
+    outline-offset: 0.3rem; 
+}
+
+.img4{
+    background-image: url(./img/bg4.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-attachment: fixed;
+    position: relative;        
+}
+
+#span3{
+    font-family: 'Lato', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 8px;
+    line-height: 3rem;
+    width: 500px;
+    height: 70px;
+    border: 1px solid black;
+    padding: 10px; 
+    background-color: rgba(0, 0, 0, 0.723);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    outline: 8px solid purple;
+    outline-offset: 0.3rem; 
+}
+
+#span4{
+    font-size: 3rem;
+    letter-spacing: 8px;
+    width: 800px;
+    line-height: 5rem;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 20px; 
+    background-color: rgba(0, 0, 0, 0.723);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    height: 120px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    outline: 8px solid purple;
+    outline-offset: 1rem; 
+}
+.bold{
+    font-weight: bolder;;
+}
+
+
